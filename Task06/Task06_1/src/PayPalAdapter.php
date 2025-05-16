@@ -2,6 +2,7 @@
 
 namespace App;
 
+<<<<<<< HEAD
 use App\PayPal;
 
 class PayPalAdapter implements PaymentAdapterInterface
@@ -29,3 +30,8 @@ class PayPalAdapter implements PaymentAdapterInterface
         return false;
     }
 }
+=======
+class PayPalAdapter implements PaymentAdapterInterface
+{
+}
+>>>>>>> 879d3f723426053beedd45c85f6c6494ef66349c

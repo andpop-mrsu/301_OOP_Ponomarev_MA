@@ -2,6 +2,7 @@
 
 namespace App;
 
+<<<<<<< HEAD
 use App\CreditCard;
 
 class CreditCardAdapter implements PaymentAdapterInterface
@@ -28,3 +29,8 @@ class CreditCardAdapter implements PaymentAdapterInterface
         return false;
     }
 }
+=======
+class CreditCardAdapter implements PaymentAdapterInterface
+{
+}
+>>>>>>> 879d3f723426053beedd45c85f6c6494ef66349c

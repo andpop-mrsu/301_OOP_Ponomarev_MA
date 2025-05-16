@@ -14,6 +14,7 @@ class PayPal
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function authorizeTransaction($amount)
 =======
     public function getEmail(): string
@@ -27,3 +28,10 @@ class PayPal
         return "PayPal Success!";
     }
 }
+=======
+    public function transfer($email, $amount)
+    {
+        return "Paypal Success!";
+    }
+}
+>>>>>>> 879d3f723426053beedd45c85f6c6494ef66349c
